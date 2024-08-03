@@ -2,7 +2,7 @@ public class sum_n_num {
     public static void main(String[] args) {
         int a = 6;
         // int n = 1;
-        sum_n(a);
+        System.out.println(sum_n(a));
     }
 
     // public static void sum_n(int a, int n)
@@ -18,6 +18,6 @@ public class sum_n_num {
     public static int sum_n(int a){
         if(a==0)return 0;
 
-        return a+sum_n(a-1);
+        return a + sum_n(a-1);
     }
 }
