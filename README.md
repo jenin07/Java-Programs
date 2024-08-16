@@ -1,2 +1,2 @@
-# DSA
-Data Structures
+# Java
+Coding in Java
