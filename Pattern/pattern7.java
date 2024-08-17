@@ -1,13 +1,12 @@
 // *
-//     *
-// *     *
-//     *    *
-// *     *     *
-//     *    *
-// *     *
-//     *
+//    *
+// *    *
+//    *   *
+// *    *    *
+//    *   *
+// *    *
+//    *
 // *
-
 
 public class pattern7 {
     
@@ -17,16 +16,16 @@ public class pattern7 {
         for(int i = 0; i < n; i++){
 
             for(int j = 0; j < i; j++){
-                System.out.print("*     ");
+                System.out.print("*    ");
             }
 
             System.out.println();
             
             if(i == 3){
-                break;
+                continue;
             }else{
                 for(int j = 0; j < i; j++){
-                    System.out.print("    *");
+                    System.out.print("   *");
                 }
             }
             
@@ -36,16 +35,17 @@ public class pattern7 {
         for(int i = n-2; i > 0; i--){
 
             for(int j = 0; j < i; j++){
-                System.out.print("    *");
+                System.out.print("   *");
             }
 
             System.out.println();
 
             for(int j = 0; j < i; j++){
-                System.out.print("*     ");
+                System.out.print("*    ");
             }
             System.out.println();
         }
+        System.out.println();
 
 
     }
