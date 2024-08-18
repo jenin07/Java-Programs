@@ -16,9 +16,11 @@ public class pattern13 {
                 System.out.print(" ");
             }
             for (int j=0; j<i; j++){
-                System.out.print(k );
+                System.out.print(k);
                 k++;
             }
+
+            k=i+1;
             System.out.println();
         }
     }
