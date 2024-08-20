@@ -1,3 +1,8 @@
+// A 
+// B B
+// C C C
+// D D D D
+
 public class pattern15 {
     
     public static void main(String[] args){
